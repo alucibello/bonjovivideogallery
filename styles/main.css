@@ -12,8 +12,18 @@ body{
         'sidebar gallery'
         'footer footer';
 }
+
 header{
     grid-area: header;
+    display: flex;
+    flex-direction: row;
+    font-size: 40px;
+    gap: 18%;
+}
+header img{
+    justify-content: left;
+    height: 200px;
+    width: 200px;
 }
 nav{
     grid-area: sidebar;
@@ -21,6 +31,8 @@ nav{
 nav ul{
     position: sticky;
     top: 50px;
+    display: block;
+    justify-content: center;
 }
 nav li{
     margin-bottom: 1rem;
