@@ -51,6 +51,7 @@ nav a {
 }
 main{
     grid-area: gallery;
+    align-items: center;
 }
 section{
     max-width: 75%;
